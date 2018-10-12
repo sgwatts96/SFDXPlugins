@@ -1,0 +1,5 @@
+{
+  "commandDescription": "Creates records in salesforce with record types",
+  "dataFileFlagDescription": "A single JSON file to import",
+  "dataPlanFlagDescription": "A singple JSON file plan of items to import"
+}
