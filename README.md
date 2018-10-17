@@ -50,8 +50,10 @@ OPTIONS
   --loglevel=(trace|debug|info|warn|error|fatal)  logging level for this command invocation
 
 EXAMPLES
-  $ sfdx createdata:create -u myTargetOrg -f myExportedFile.json,myOtherExporedFile.json
-  $ sfdx createdata:create -u myTargetOrg -p myExporedPlan.json
+  $ sfdx createdata:create -u myTargetOrg -f myExportedFile.json,myOtherExportedFile.json
+     Success: All records were deployed
+  $ sfdx createdata:create -u myTargetOrg -p myExportedPlan.json
+     Success: All records were deployed
 ```
 
 _See code: [src/commands/createdata/create.ts](https://github.com/Desktop/dd/blob/v0.0.1/src/commands/createdata/create.ts)_
